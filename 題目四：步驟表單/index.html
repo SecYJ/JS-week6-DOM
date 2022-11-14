@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../styles.css" />
+		<link rel="stylesheet" href="./custom.css" />
+		<script defer src="app.js"></script>
+	</head>
+	<body>
+		<h1>步驟表單</h1>
+
+		<form>
+			<!-- 01 -->
+			<div data-step="1">
+				<h2>步驟一</h2>
+				<hr />
+				<label>
+					電子信箱
+					<input type="email" name="email" placeholder="請輸入電子信箱" required />
+				</label>
+				<label>
+					密碼
+					<input type="password" name="password" placeholder="請輸入密碼" required />
+				</label>
+				<div>
+					<button type="button" data-btn="next">下一步</button>
+				</div>
+			</div>
+
+			<!-- 02 -->
+			<div data-step="2">
+				<h2>步驟二</h2>
+				<hr />
+				<label>
+					地址
+					<input type="text" name="address" placeholder="請輸入您的地址" required />
+				</label>
+				<label>
+					城市
+					<input type="text" name="city" placeholder="請輸入您的城市" required />
+				</label>
+				<div>
+					<button type="button" data-btn="prev">上一步</button>
+					<button type="button" data-btn="next">下一步</button>
+				</div>
+			</div>
+
+			<!-- 03 -->
+			<div data-step="3">
+				<h2>步驟三</h2>
+				<hr />
+				<label>
+					名稱
+					<input type="text" name="username" placeholder="請輸入您的名稱" required />
+				</label>
+				<label>
+					電話
+					<input type="phone" name="phone-number" placeholder="請輸入您的電話" required />
+				</label>
+				<div>
+					<button type="button" data-btn="prev">上一步</button>
+					<button type="button" data-btn="next">下一步</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

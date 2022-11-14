@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../styles.css" />
+		<link rel="stylesheet" href="./custom.css" />
+		<script type="module" src="app.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="intro">
+				<h1>網頁性格測驗</h1>
+				<p>
+					製作網頁是一個多種領域發揮的舞台，助教製作了一款簡易的網頁性格測驗，來測試看看同學們對網頁不同領域的喜好程度～
+				</p>
+				<button class="start-btn">開始測驗～</button>
+			</div>
+
+			<form class="form">
+				<label for="username" class="form-label">请输入你的名称</label>
+				<div>
+					<input type="text" id="username" required />
+					<button type="submit">显示我的测试结果</button>
+				</div>
+			</form>
+
+			<!-- Test -->
+			<div class="test-question"></div>
+
+			<!-- Result -->
+			<div class="result"></div>
+		</div>
+	</body>
+</html>

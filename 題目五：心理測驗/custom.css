@@ -1,0 +1,33 @@
+input {
+	border: 1px solid #000;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	max-width: 400px;
+	width: 100%;
+	margin-inline: auto;
+	background-color: #fff;
+	padding: 1.5rem;
+}
+
+.intro {
+	margin-bottom: 1.25rem;
+}
+
+.test-question {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-label {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.answer-label:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
